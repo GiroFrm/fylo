@@ -68,3 +68,14 @@
 
     font-family: var(--ff-base);
   }
+
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.primary-navigation {
+    display: flex;
+    gap: 3.625rem;
+}
