@@ -63,3 +63,8 @@
     --fw-bold: 700;
 
   }
+
+  body{
+
+    font-family: var(--ff-base);
+  }
