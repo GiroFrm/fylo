@@ -54,5 +54,9 @@
 
     --clr-neutral-100: hsl(240, 75%, 98%);
     --clr-neutral-250: hsl(0, 0%, 75%);
+
+
+    --ff-accent: "Raleway", system-ui;
+    --ff-base: "Open Sans", sans-serif;
     
   }
