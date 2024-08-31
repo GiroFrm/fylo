@@ -67,6 +67,14 @@
   body{
 
     font-family: var(--ff-base);
+
+    padding-top: 4rem;
+    padding-inline: 5rem;
+  }
+
+
+  a{
+    text-decoration: none;
   }
 
   .header{
