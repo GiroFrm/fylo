@@ -87,3 +87,9 @@
     display: flex;
     gap: 3.625rem;
 }
+
+.flex-group{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
