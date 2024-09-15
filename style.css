@@ -62,6 +62,8 @@
     --fw-regular: 400;
     --fw-bold: 700;
 
+    --fs-200:1.06rem;
+    --fs-400: 2.5rem;
   }
 
   body{
@@ -72,6 +74,13 @@
     padding-inline: 5rem;
   }
 
+  .fs-200{
+    font-size: var(--fs-200);
+  }
+  
+  .fs-400{
+    font-size: var(--fs-400);
+  }
 
   a{
     text-decoration: none;
@@ -80,7 +89,7 @@
   .margin-bottom55{
     margin-bottom: 3.44rem;
   }
-  
+
   .header{
     display: flex;
     align-items: center;
