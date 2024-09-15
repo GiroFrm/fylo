@@ -89,7 +89,18 @@
 }
 
 .flex-group{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: center;
+  gap: 3.43rem;
+}
 
+.reverse-column {
+  flex-direction: row-reverse;
+}
+
+.wrapper-txt{
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
 }
