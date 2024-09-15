@@ -96,21 +96,20 @@
     font-size: 14px;
     padding: 0.875em 7.68em 0.75em 1.31em;
     border-radius: 4px;
-    height: 2.81rem;
   }
 
   .btn-primary{
     font-size: 14px;
     font-weight: var(--fw-bold);
-    padding: 0.875em 3.8125em 0.875em 3.8125em;
+    padding: 0.9375em 3.8125em 0.875em 3.8125em;
     cursor: pointer;
     border: none;
     border-radius: 4px;
-    height: 2.81rem;
+   
     background-color: var(--clr-secondary-400);
     color: white;
 
-    &:githover{
+    &:hover{
     opacity: 0.8;
     }
   }
