@@ -77,6 +77,10 @@
     text-decoration: none;
   }
 
+  .margin-bottom55{
+    margin-bottom: 3.44rem;
+  }
+  
   .header{
     display: flex;
     align-items: center;
