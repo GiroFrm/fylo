@@ -50,6 +50,8 @@
     --clr-primary-600: hsl(238, 22%, 44%);
 
     --clr-secondary-400: hsl(224, 93%, 58%);
+    --clr-secondary-450: hsl(240, 2%, 100%);
+    
     --clr-secondary-600: hsl(170, 45%, 43%);
 
     --clr-neutral-100: hsl(240, 75%, 98%);
@@ -81,6 +83,10 @@
 
   .margin-bottom55{
     margin-bottom: 3.44rem;
+  }
+
+  .margin-bottom30{
+    margin-bottom: 10rem;
   }
 
   .fs-400{
@@ -150,6 +156,14 @@
  
 }
 
+.services{
+  background-color: var(--clr-secondary-450);
+}
 .gap16>*:not(:last-child){
  margin-bottom: 1rem;
+}
+
+.review {
+  max-width: 356px;
+ 
 }
