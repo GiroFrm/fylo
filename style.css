@@ -83,13 +83,21 @@
     margin-bottom: 3.44rem;
   }
 
-  .hero__title{
+  .fs-400{
     font-size: var(--fs-400);
+  }
+
+  .fs-200{
+   font-size: var(--fs-200);
+  }
+  
+  .max-width-description{
+    max-width: 34.37rem;
   }
 
   .hero__description {
     font-size: var(--fs-200);
-    max-width: 34.37rem;
+   
   }
 
   .email-input {
@@ -136,7 +144,6 @@
 }
 
 .wrapper-txt{
- 
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
