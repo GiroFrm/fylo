@@ -167,6 +167,7 @@
 }
 .gap16>*:not(:last-child){
  margin-bottom: 1rem;
+
 }
 
 .review {
@@ -201,4 +202,9 @@
 
 .profile__title {
   font-size:  8px;
+}
+
+.CTA {
+  padding-top: 6.25rem;
+  padding-left: 5rem;
 }
