@@ -206,5 +206,28 @@
 
 .CTA {
   padding-top: 6.25rem;
-  padding-left: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  background-color: var(--clr-primary-600);
+  color: white;
+}
+
+.CTA-title{
+ font-size: 2rem;
+ font-weight: bold;
+}
+
+.CTA-form{
+
+}
+
+.CTA-description{
+ max-width: 50%;
+}
+
+.CTA-email {
+  display: block;
+  margin-bottom: 8px;
+  width: 30vw
+  
 }
