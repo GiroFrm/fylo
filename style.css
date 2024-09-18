@@ -242,7 +242,7 @@
   padding-bottom: 86px;
   padding-top: 86px;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   grid-template-columns: repeat(4, 1fr);
   background-color: var(--clr-primary-900);
   color:white;
@@ -253,17 +253,17 @@ footer p{
 
 .footer__contacts{
   grid-column: 1 / 1;
-padding-top: 0;
-margin-top: 0;
+  
 }
 
-.logo-footer{
- 
-}
 
-.secondary-nav{
-  justify-self: center
-}
+
+.secondary-nav ,
 .secondary-contacts{
   justify-self: center
+}
+
+.grid-flow{
+  display: grid;
+  gap: 1rem;
 }
