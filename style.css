@@ -247,6 +247,11 @@
   background-color: var(--clr-primary-900);
   color:white;
 }
+
+.logo-footer{
+  margin-bottom: 2rem;
+}
+
 footer p{
   color: white;
 }
@@ -255,8 +260,6 @@ footer p{
   grid-column: 1 / 1;
   
 }
-
-
 
 .secondary-nav ,
 .secondary-contacts{
