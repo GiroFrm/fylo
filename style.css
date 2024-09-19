@@ -270,3 +270,15 @@ footer p{
   display: grid;
   gap: 1rem;
 }
+
+.gap2{
+  display:grid;
+  grid-template-rows: repeat(3, 1.5rem);
+  gap: 1rem;
+
+ 
+}
+
+.hover-secondary-links a p:hover{
+ color: var(--clr-secondary-400);
+}
