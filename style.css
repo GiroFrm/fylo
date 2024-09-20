@@ -143,11 +143,18 @@
     gap: 3.625rem;
  }
 
+ @media(min-width: 700px){
 .flex-group{
   display: flex;
   align-items: center;
   gap: 3.43rem;
-}
+ }
+
+.reverse-column {
+  flex-direction: row-reverse;
+ }
+ 
+ }
 
 .flex-items{
   display: flex;
@@ -155,9 +162,7 @@
   gap: 1rem;
 }
 
-.reverse-column {
-  flex-direction: row-reverse;
-}
+
 
 .wrapper-txt{
   display: flex;
