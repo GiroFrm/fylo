@@ -94,7 +94,7 @@
   }
 
   .fs-400{
-     font-size: clamp(1.5rem, 2.2vw, 2.5rem);
+     font-size: clamp(1.5rem, 2.5vw, 2.5rem);
   }
 
   .fs-200{
@@ -162,7 +162,9 @@
   gap: 1rem;
 }
 
-
+.hero-image{
+  max-width: 620px;
+}
 
 .wrapper-txt{
   display: flex;
@@ -176,6 +178,7 @@
   padding-top: 10rem;
   padding-bottom: 6.25rem;
 }
+
 .gap16>*:not(:last-child){
  margin-bottom: 1rem;
 
