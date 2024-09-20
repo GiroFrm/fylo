@@ -73,7 +73,14 @@
     font-family: var(--ff-base);
 
     padding-top: 4rem;
+    
    
+  }
+
+  @media(max-width: 700px) {
+    body{
+      text-align: center;
+    }
   }
 
 
@@ -94,7 +101,7 @@
   }
 
   .fs-400{
-     font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+     font-size: clamp(1.5rem, 3vw, 2.5rem);
   }
 
   .fs-200{
