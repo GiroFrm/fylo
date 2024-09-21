@@ -97,6 +97,12 @@
     margin-bottom: 3.44rem;
   }
 
+  @media(max-width: 700px){
+    .margin-bottom55{
+      margin-bottom: 6.15rem;
+    }
+  }
+
   .margin-bottom30{
     margin-bottom: 10rem;
   }
@@ -131,6 +137,7 @@
     font-size: 14px;
     padding: 0.875em 7.68em 0.75em 1.31em;
     border-radius: 4px;
+    
   }
 
   .btn-primary{
@@ -143,12 +150,13 @@
    
     background-color: var(--clr-secondary-400);
     color: white;
-
+    
     &:hover{
     opacity: 0.8;
     }
   }
 
+  
   .header{
     display: flex;
     align-items: center;
@@ -159,9 +167,17 @@
     display: flex;
     gap: 3.625rem;
  }
+
  @media(max-width: 700px){
   .primary-navigation{
     gap: 1.5rem;
+  }
+
+  .width-mb{
+    width: 100%;
+  }
+  .email-input{
+    margin-bottom: 1rem;
   }
  }
 
