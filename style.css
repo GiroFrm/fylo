@@ -108,6 +108,12 @@
    font-size: var(--fs-200);
   }
   
+  @media(max-width: 700px){
+   .logo{
+    max-width: 6rem;
+   }
+  }
+
   .max-width-description{
     max-width: 34.37rem;
   }
