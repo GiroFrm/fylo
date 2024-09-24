@@ -284,6 +284,10 @@
   
 }
 
+.CTA-link {
+  color: var(--clr-secondary-600);
+}
+
 .footer{
   padding-bottom: 86px;
   padding-top: 86px;
