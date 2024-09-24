@@ -336,6 +336,13 @@
   color:white;
 }
 
+@media(max-width: 700px){
+ .footer{
+  grid-template-columns: 1fr;
+  gap: 2rem;
+ }
+}
+
 .logo-footer{
   margin-bottom: 2rem;
 }
@@ -352,6 +359,13 @@ footer p{
 .secondary-nav ,
 .secondary-contacts{
   justify-self: center
+}
+
+@media(max-width: 700px){
+  .secondary-nav ,
+.secondary-contacts{
+  justify-self: left;
+}
 }
 
 .grid-flow{
